@@ -1,0 +1,15 @@
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\bin\Debug\Importer.exe.config
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\bin\Debug\Importer.exe
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\bin\Debug\Importer.pdb
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\bin\Debug\Mono.Security.dll
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\bin\Debug\Npgsql.dll
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\bin\Debug\Npgsql.xml
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\bin\Debug\de\Npgsql.resources.dll
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\bin\Debug\es\Npgsql.resources.dll
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\bin\Debug\fi\Npgsql.resources.dll
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\bin\Debug\fr\Npgsql.resources.dll
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\bin\Debug\ja\Npgsql.resources.dll
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\bin\Debug\zh-CN\Npgsql.resources.dll
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\obj\Debug\Importer.csprojResolveAssemblyReference.cache
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\obj\Debug\Importer.exe
+c:\users\a-herrmann\documents\visual studio 2013\Projects\MVC 5 Skeleton1\Importer\obj\Debug\Importer.pdb

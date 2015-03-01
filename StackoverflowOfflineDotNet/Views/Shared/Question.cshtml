@@ -1,0 +1,61 @@
+﻿@section head {
+    <link rel="stylesheet" href="@Url.Content("~/Content/all.css")" />
+}
+
+<div id="content">
+    <div id="question-header">
+        <h1 itemprop="name">
+            <a href="" class="question-hyperlink">@ViewBag.Title</a>
+        </h1>
+    </div>
+    @foreach (var post in ViewBag.Posts)
+    {
+        <div id="answers">
+            <div class="answer">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="votecell">
+                                <div class="vote">
+                                    <input type="hidden" name="_id_" value="" />
+                                    <a class="vote-up-off" title="This answer is useful">up vote</a>
+                                    <span itemprop="upvoteCount" class="vote-count-post "></span>
+                                    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+                                </div>
+                            </td>
+                            <td class="answercell">
+                                <div class="post-text">@(new HtmlString(post.body))</div>
+                                <div class="post-text">
+                                    <p style="background-color: #f7f7f7;"></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="votecell"></td>
+                            <td>
+                                <div class="comments ">
+                                    <table>
+                                        <tbody>
+                                            @foreach (var comment in post.comments)
+                                            {
+                                                <tr class="comment">
+                                                    <td class="comment-text">
+                                                        <div style="display: block;" class="comment-body">
+                                                            <span class="comment-copy">@(new HtmlString(comment.text))</span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                        <tfoot>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>
